@@ -2,12 +2,12 @@ import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
 const Profle = () => {
- 
+
     const Navigate = useNavigate()
-   const Logoutuser= ()=>{
-     localStorage.removeItem("loggin")
-     Navigate("/")
-   }
+    const Logoutuser = () => {
+        localStorage.removeItem("loggin")
+        Navigate("/")
+    }
 
     return (
         <>
